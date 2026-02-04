@@ -260,26 +260,27 @@ const feature_data: DataType[] = [
 
    // home_three_feature_2
 
+  
    {
       id: 1,
       page: "home_three_feature_2",
       icon: feature3Icon_4,
-      title: "Property Insurance",
-      desc: "Elit esse cillum dolo fugiat nulla tur nos ullamo.",
+      title: "Sigurimi i Pronës",
+      desc: "Ofrojmë mbulim të plotë sigurimi për pronën tuaj kundër rreziqeve të ndryshme."
    },
    {
       id: 2,
       page: "home_three_feature_2",
       icon: feature3Icon_5,
-      title: "Easy Payments",
-      desc: "quis nostrud exerct ullamo sucirity finibus ne derived.",
+      title: "Pagesa të Lehta",
+      desc: "Proces i thjeshtë pagese me opsione fleksibile dhe të përshtatshme për çdo buxhet."
    },
    {
       id: 3,
       page: "home_three_feature_2",
       icon: feature3Icon_6,
-      title: "Quick Process",
-      desc: "Duis aute irure dolor reprehe de Cicero's voluptat velit.",
+      title: "Proces i Shpejtë",
+      desc: "Procedura e shpejtuar e blerjes me dokumentacion të thjeshtë dhe kohë minimale pritje."
    },
 
    // home_4_feature_1

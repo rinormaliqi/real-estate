@@ -64,19 +64,18 @@ const ListingThreeArea = ({ style }: any) => {
             </div>}
 
             <div className="listing-header-filter d-sm-flex justify-content-between align-items-center mb-40 lg-mb-30">
-               <div>Showing <span className="color-dark fw-500">{itemOffset + 1}–{itemOffset + currentItems.length}</span> of <span
-                  className="color-dark fw-500">{sortedProperties.length}</span> results</div>
+               <div>Duke Treguar <span className="color-dark fw-500">{itemOffset + 1}–{itemOffset + currentItems.length}</span> nga <span
+                  className="color-dark fw-500">{sortedProperties.length}</span> Rezultate</div>
                <div className="d-flex align-items-center xs-mt-20">
                   <div className="short-filter d-flex align-items-center">
-                     <div className="fs-16 me-2">Short by:</div>
+                     <div className="fs-16 me-2">Filtro nga:</div>
                      <NiceSelect
                         className="nice-select"
                         options={[
-                           { value: "newest", text: "Newest" },
-                           { value: "best_seller", text: "Best Seller" },
-                           { value: "best_match", text: "Best Match" },
-                           { value: "price_low", text: "Price Low" },
-                           { value: "price_high", text: "Price High" },
+                           { value: "newest", text: "Me te rejat" },
+                           { value: "best_seller", text: "Me te pelqyerat" },
+                           { value: "price_low", text: "Qmimi i Ulet" },
+                           { value: "price_high", text: "Qmimi i Lart" },
                         ]}
                         defaultCurrent={0}
                         onChange={handleTypeChange}
@@ -104,7 +103,7 @@ const ListingThreeArea = ({ style }: any) => {
                                  <div className="carousel-inner">
                                     {item.carousel_thumb.map((item: any, i: any) => (
                                        <div key={i} className={`carousel-item ${item.active}`} data-bs-interval="1000000">
-                                          <Link href="/listing_details_01" className="d-block"><Image src={item.img} className="w-100" alt="..." /></Link>
+                                          <Link href="/listing_details_03" className="d-block"><Image src={item.img} className="w-100" alt="..." /></Link>
                                        </div>
                                     ))}
                                  </div>

@@ -16,13 +16,13 @@ const HomeTwo = () => {
     <>
       <HeaderTwo style_1={false} style_2={false} />
       <HeroBanner />
-      <FeedbackOne />
+      {/* <FeedbackOne /> */}
       <Property />
       <BLockFeatureOne />
       <FancyBannerOne />
       <BLockFeatureTwo />
-      <FeedbackTwo />
-      <Blog style={false} />
+      {/* <FeedbackTwo /> */}
+      {/* <Blog style={false} /> */}
       <FAQ />
       <FancyBannerTwo/>
       <FooterOne style={true} />

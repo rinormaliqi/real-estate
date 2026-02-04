@@ -29,8 +29,8 @@ const NavMenu = () => {
                 </div>
             </li>
             <li className="nav-item dashboard-menu">
-                <Link className="nav-link" href="/dashboard/dashboard-index" target="_blank">
-                    Dashboard
+                <Link className="nav-link" href="/" target="_blank">
+                    Ballina
                 </Link>
             </li>
             {menu_data.map((menu: any) => (

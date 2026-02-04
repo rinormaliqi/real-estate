@@ -51,16 +51,16 @@ const DropdownTwo = () => {
                         </div>
                         <div className="col-xl-3 col-md-6">
                            <div className="input-box-one border-left">
-                              <div className="label">Location</div>
+                              <div className="label">Lokacion</div>
                               <NiceSelect className="nice-select location fw-normal"
                                  options={[
-                                    { value: "germany", text: "Berlin, Germany" },
-                                    { value: "dhaka", text: "Dhanmondi, Dhaka" },
-                                    { value: "mexico", text: "Acapulco, Mexico" },
-                                    { value: "france", text: "Cannes, France" },
-                                    { value: "india", text: "Delhi, India" },
-                                    { value: "giza", text: "Giza, Egypt" },
-                                    { value: "cuba", text: "Havana, Cuba" },
+                                              { value: "germany", text: "Prishtine, Kosova" },
+                        { value: "dhaka", text: "Peja, Kosova" },
+                        { value: "mexico", text: "Mitrovica, Kosova" },
+                        { value: "france", text: "Gjakova, Kosova" },
+                        { value: "india", text: "Ferizaj, Kosova" },
+                        { value: "giza", text: "Gjilan, Kosova" },
+                        { value: "cuba", text: "Drenas, Kosova" },
                                  ]}
                                  defaultCurrent={0}
                                  onChange={selectHandler}

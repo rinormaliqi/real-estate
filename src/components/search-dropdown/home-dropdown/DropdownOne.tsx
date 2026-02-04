@@ -13,14 +13,14 @@ const DropdownOne = ({ style }: any) => {
          <div className="row gx-0 align-items-center">
             <div className="col-xl-3 col-lg-4">
                <div className="input-box-one border-left">
-                  <div className="label">I’m looking to...</div>
+                  <div className="label">Jam ne kerkim per...</div>
                   <NiceSelect className={`nice-select ${style ? "fw-normal" : ""}`}
                      options={[
-                        { value: "apartments", text: "Buy Apartments" },
-                        { value: "condos", text: "Rent Condos" },
-                        { value: "houses", text: "Sell Houses" },
-                        { value: "industrial", text: "Rent Industrial" },
-                        { value: "villas", text: "Sell Villas" },
+                        { value: "apartments", text: "Blej Apartament" },
+                        { value: "condos", text: "Banese me Qira" },
+                        { value: "houses", text: "Blej Shtepi" },
+                        { value: "industrial", text: "Depo me Qira" },
+                        { value: "villas", text: "Bleje Ville" },
                      ]}
                      defaultCurrent={0}
                      onChange={selectHandler}
@@ -30,16 +30,16 @@ const DropdownOne = ({ style }: any) => {
             </div>
             <div className={`${style ? "col-xl-3" : "col-xl-4"} col-lg-4`}>
                <div className="input-box-one border-left">
-                  <div className="label">Location</div>
+                  <div className="label">Lokacion</div>
                   <NiceSelect className={`nice-select location ${style ? "fw-normal" : ""}`}
                      options={[
-                        { value: "germany", text: "Berlin, Germany" },
-                        { value: "dhaka", text: "Dhanmondi, Dhaka" },
-                        { value: "mexico", text: "Acapulco, Mexico" },
-                        { value: "france", text: "Cannes, France" },
-                        { value: "india", text: "Delhi, India" },
-                        { value: "giza", text: "Giza, Egypt" },
-                        { value: "cuba", text: "Havana, Cuba" },
+                        { value: "germany", text: "Prishtine, Kosova" },
+                        { value: "dhaka", text: "Peja, Kosova" },
+                        { value: "mexico", text: "Mitrovica, Kosova" },
+                        { value: "france", text: "Gjakova, Kosova" },
+                        { value: "india", text: "Ferizaj, Kosova" },
+                        { value: "giza", text: "Gjilan, Kosova" },
+                        { value: "cuba", text: "Drenas, Kosova" },
                      ]}
                      defaultCurrent={0}
                      onChange={selectHandler}
@@ -49,7 +49,7 @@ const DropdownOne = ({ style }: any) => {
             </div>
             <div className="col-xl-3 col-lg-4">
                <div className="input-box-one border-left border-lg-0">
-                  <div className="label">Price Range</div>
+                  <div className="label">Qmimi</div>
                   <NiceSelect
                      className={`nice-select ${style ? "fw-normal" : ""}`}
                      options={[
@@ -65,7 +65,7 @@ const DropdownOne = ({ style }: any) => {
             </div>
             <div className={`${style ? "col-xl-3" : "col-xl-2"}`}>
                <div className="input-box-one lg-mt-10">
-                  <button className={`fw-500 tran3s ${style ? "w-100 tran3s search-btn-three" : "text-uppercase search-btn"}`}>{style ? "Search Now" : "Search"}</button>
+                  <button className={`fw-500 tran3s ${style ? "w-100 tran3s search-btn-three" : "text-uppercase search-btn"}`}>{style ? "Kerko" : "Kerko"}</button>
                </div>
             </div>
          </div>

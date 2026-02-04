@@ -23,8 +23,7 @@ const ListingDetailsThreeArea = () => {
          <div className="container">
             <CommonBanner />
             <MediaGallery />
-            <div className="row">
-               <div className="col-xl-8">
+     
                   <div className="bg-white shadow4 border-20">
                      <PropertyOverview />
                      <div className="property-amenities border-top p-40">
@@ -51,7 +50,7 @@ const ListingDetailsThreeArea = () => {
                      <div className="property-location border-top p-40">
                         <CommonLocation />
                      </div>
-
+{/* 
                      <div className="review-panel-one border-top p-40">
                         <div className="position-relative z-1">
                            <div className="d-sm-flex justify-content-between align-items-center mb-10">
@@ -69,14 +68,12 @@ const ListingDetailsThreeArea = () => {
                            </div>
                            <Review style={true} />
                         </div>
-                     </div>
+                     </div> */}
                      <div className="review-form border-top p-40">
-                        <CommonReviewForm />
+                        {/* <CommonReviewForm /> */}
                      </div>
                   </div>
-               </div>
-               <Sidebar />
-            </div>
+     
          </div>
       </div>
    )

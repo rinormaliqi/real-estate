@@ -21,14 +21,14 @@ const DropdownTwo = ({
             <div className="row gx-0 align-items-center">
                <div className="col-xl-3 col-lg-4">
                   <div className="input-box-one border-left">
-                     <div className="label">I’m looking to...</div>
+                     <div className="label">Jam duke kerkuar...</div>
                      <NiceSelect className="nice-select"
                         options={[
-                           { value: "apartments", text: "Buy Apartments" },
-                           { value: "condos", text: "Rent Condos" },
-                           { value: "houses", text: "Sell Houses" },
-                           { value: "industrial", text: "Rent Industrial" },
-                           { value: "villas", text: "Sell Villas" },
+                        { value: "apartments", text: "Blej Apartament" },
+                        { value: "condos", text: "Banese me Qira" },
+                        { value: "houses", text: "Blej Shtepi" },
+                        { value: "industrial", text: "Depo me Qira" },
+                        { value: "villas", text: "Bleje Ville" },
                         ]}
                         defaultCurrent={0}
                         onChange={handleStatusChange}
@@ -38,16 +38,16 @@ const DropdownTwo = ({
                </div>
                <div className="col-xl-3 col-lg-4">
                   <div className="input-box-one border-left">
-                     <div className="label">Location</div>
+                     <div className="label">Lokacion</div>
                      <NiceSelect className="nice-select location"
                         options={[
-                           { value: "washington", text: "Washington DC" },
-                           { value: "mexico", text: "Acapulco, Mexico" },
-                           { value: "germany", text: "Berlin, Germany" },
-                           { value: "france", text: "Cannes, France" },
-                           { value: "india", text: "Delhi, India" },
-                           { value: "giza", text: "Giza, Egypt" },
-                           { value: "cuba", text: "Havana, Cuba" },
+                                 { value: "germany", text: "Prishtine, Kosova" },
+                        { value: "dhaka", text: "Peja, Kosova" },
+                        { value: "mexico", text: "Mitrovica, Kosova" },
+                        { value: "france", text: "Gjakova, Kosova" },
+                        { value: "india", text: "Ferizaj, Kosova" },
+                        { value: "giza", text: "Gjilan, Kosova" },
+                        { value: "cuba", text: "Drenas, Kosova" },
                         ]}
                         defaultCurrent={0}
                         onChange={handleLocationChange}
@@ -57,7 +57,7 @@ const DropdownTwo = ({
                </div>
                <div className="col-xl-3 col-lg-4">
                   <div className="input-box-one border-left border-lg-0">
-                     <div className="label">Price Range</div>
+                     <div className="label">Qmimi</div>
                      <NiceSelect
                         className="nice-select"
                         options={[
@@ -78,7 +78,7 @@ const DropdownTwo = ({
                         <Link href="#" data-bs-toggle="modal" data-bs-target="#advanceFilterModal" className="search-modal-btn sm tran3s text-uppercase fw-500 d-inline-flex align-items-center me-3">
                            <i className="fa-light fa-sliders-up"></i>
                         </Link>
-                        <button className="fw-500 text-uppercase tran3s search-btn">Search</button>
+                        <button className="fw-500 text-uppercase tran3s search-btn">Kerko</button>
                      </div>
                   </div>
                </div>

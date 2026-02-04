@@ -33,3 +33,24 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# env
+.env
+real-estate-backend/.env
+
+# node modules
+node_modules
+real-estate-backend/node_modules
+
+
+# logs
+*.log
+
+# build
+dist
+build
+.next
+out
+
+# OS
+.DS_Store

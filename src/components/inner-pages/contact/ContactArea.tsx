@@ -16,19 +16,19 @@ const address_data: DataType[] = [
    {
       id: 1,
       title: "We’r always happy to help.",
-      address_1: "ask@gmail.com"
+      address_1: "rmaliqi75@gmail.com"
    },
    {
       id: 2,
       class_name: "skew-line",
       title: "Our hotline number",
-      address_1: "+210 0000 0000,",
-      address_2: "+210 0000 0000",
+      address_1: "+383 44 879 290",
+      address_2: "+383 44 879 290",
    },
    {
       id: 3,
       title: "Live chat",
-      address_1: "www.HOZN.com"
+      address_1: "www.pikembipresje.com"
    },
 ]
 
@@ -75,8 +75,7 @@ const ContactArea = () => {
                <div className="col-xl-5 col-lg-6 d-flex order-lg-first">
                   <div className="contact-map-banner w-100">
                      <div className="gmap_canvas h-100 w-100">
-                        <iframe className="gmap_iframe h-100 w-100" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=dhaka collage&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                     </div>
+<iframe className="gmap_iframe h-100 w-100" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Prishina&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>                     </div>
                   </div>
                </div>
             </div>

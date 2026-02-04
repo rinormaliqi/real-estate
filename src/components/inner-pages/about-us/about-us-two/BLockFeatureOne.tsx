@@ -14,14 +14,14 @@ const BLockFeatureOne = () => {
                <div className="col-xl-6 col-lg-7 order-lg-last wow fadeInRight">
                   <div className="ms-xxl-5 ps-xl-4 ps-lg-5 md-mb-50">
                      <div className="title-one mb-45 lg-mb-20">
-                        <h2 className="font-garamond star-shape">Find Your Preferable Match Easily. <span className="star-shape"><Image src={titleShape} alt="" className="lazy-img" /></span></h2>
+                        <h2 className="font-garamond star-shape">Gjeni lehtësisht përputhjen tuaj të preferuar. <span className="star-shape"><Image src={titleShape} alt="" className="lazy-img" /></span></h2>
                      </div>
                      <div className="accordion-style-three">
                         <div className="accordion" id="accordionThree">
                            <FaqThree />
                         </div>
                      </div>
-                     <Link href="contact" className="btn-five mt-75 lg-mt-50">Contact us</Link>
+                     <Link href="contact" className="btn-five mt-75 lg-mt-50">Na kontaktoni</Link>
                   </div>
                </div>
                <div className="col-xl-6 col-lg-5 d-lg-flex wow fadeInLeft">
@@ -38,19 +38,19 @@ const BLockFeatureOne = () => {
                   <div className="col-md-4 col-sm-6">
                      <div className="counter-block-two text-center dark mt-30">
                         <div className="main-count sm font-garamond fw-500"><span className="counter"><Count number={720} /></span>k+</div>
-                        <p className="fs-20 mt-15 md-mt-10">Project handover</p>
+                        <p className="fs-20 mt-15 md-mt-10">Projekte të dorëzuara</p>
                      </div>
                   </div>
                   <div className="col-md-4 col-sm-6">
                      <div className="counter-block-two text-center dark mt-30">
                         <div className="main-count sm font-garamond fw-500"><span className="counter"><Count number={1.3} /></span>%</div>
-                        <p className="fs-20 mt-15 md-mt-10">Low Interest</p>
+                        <p className="fs-20 mt-15 md-mt-10">Interes i Ulët</p>
                      </div>
                   </div>
                   <div className="col-md-4 col-sm-6">
                      <div className="counter-block-two text-center dark mt-30">
                         <div className="main-count sm font-garamond fw-500"><span className="counter">{<Count number={1.9} />}</span>mil+</div>
-                        <p className="fs-20 mt-15 md-mt-10">Happy customers</p>
+                        <p className="fs-20 mt-15 md-mt-10">Klientë të kënaqur</p>
                      </div>
                   </div>
                </div>

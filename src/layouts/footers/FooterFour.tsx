@@ -15,11 +15,11 @@ const FooterFour = () => {
                      <div className="footer-intro">
                         <div className="logo mb-20">
                            <Link href="/">
-                              <Image src={footerLogo} alt="" />
+                              <Image src="/logo2.png" width={55} height={55} alt="" />
                            </Link>
                         </div>
-                        <p className="mb-30 xs-mb-20">11910 Cairo Suite 210, Kafralshakh , Cairo, Egypt</p>
-                        <Link href="#" className="email tran3s mb-60 md-mb-30">aljamal1stt@gmail.com</Link>
+                        <p className="mb-30 xs-mb-20">11910, Prishtina, Kosova</p>
+                        <Link href="#" className="email tran3s mb-60 md-mb-30">rmaliqi75@gmail.com</Link>
                         <ul className="style-none d-flex align-items-center social-icon">
                            <li><Link href="#"><i className="fa-brands fa-facebook-f"></i></Link></li>
                            <li><Link href="#"><i className="fa-brands fa-twitter"></i></Link></li>
@@ -42,7 +42,7 @@ const FooterFour = () => {
                </div>
             </div>
             <div className="bottom-footer">
-               <p className="m0 text-center fs-16">Copyright @2025 HOZN.</p>
+               <p className="m0 text-center fs-16">Copyright @2025 PIKEMBIPRESJE.</p>
             </div>
          </div>
          <Image src={footerShape} alt="" className="lazy-img shapes shape_01" />

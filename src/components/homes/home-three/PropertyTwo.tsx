@@ -61,8 +61,8 @@ const PropertyTwo = ({ style }: any) => {
          <div className="container container-large">
             <div className="position-relative z-1">
                <div className="title-one mb-60 lg-mb-40 wow fadeInUp">
-                  <h2 className="font-garamond">New <em>Listings</em> <span className="star-shape"><Image src={propertyShape_1} alt="" className="lazy-img" /></span></h2>
-                  <p className="fs-22 m0">Explore latest & featured properties for sale.</p>
+                  <h2 className="font-garamond">Pronat <em>e Reja</em> <span className="star-shape"><Image src={propertyShape_1} alt="" className="lazy-img" /></span></h2>
+                  <p className="fs-22 m0">Eksploro pronat me te reja per blerje.</p>
                </div>
 
                <Slider {...setting} ref={sliderRef} className={`listing-slider-one ${style ? "vw-100" : ""}`}>
@@ -115,7 +115,7 @@ const PropertyTwo = ({ style }: any) => {
                </Slider>
 
                <div className="section-btn text-center">
-                  <Link href="/listing_04" className="btn-eleven fst-italic"><span>See all properties</span></Link>
+                  <Link href="/listing_03" className="btn-eleven fst-italic"><span>Shiko te gjitha pronat.</span></Link>
                </div>
                <ul className="slider-arrows slick-arrow-two d-flex justify-content-center style-none md-mt-30">
                   <li onClick={handlePrevClick} className="prev_b slick-arrow"><i className="bi bi-arrow-left"></i></li>

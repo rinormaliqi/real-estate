@@ -10,22 +10,24 @@ import FooterTwo from "@/layouts/footers/FooterTwo"
 import PropertyTwo from "./PropertyTwo"
 import Feedback from "./Feedback"
 import HeaderTwo from "@/layouts/headers/HeaderTwo"
+import FooterFour from "@/layouts/footers/FooterFour"
+import HeaderOne from "@/layouts/headers/HeaderOne"
 
 const HomeThree = () => {
   return (
     <>
-      <HeaderTwo style_1={true} style_2={false} />
+      <HeaderOne style_1={true} style_2={false} />
       <HeroBanner />
-      <Category style={false} />
-      <BLockFeatureOne />
-      <PropertyOne />
+      {/* <Category style={false} /> */}
+      {/* <BLockFeatureOne /> */}
+      {/* <PropertyOne /> */}
       <PropertyTwo style={false} />
       <BLockFeatureTwo />
       <FancyBannerOne />
-      <Feedback style={false} />
-      <Brand />
+      {/* <Feedback style={false} /> */}
+      {/* <Brand /> */}
       <FancyBannerTwo />
-      <FooterTwo />
+      <FooterFour />
     </>
   )
 }
