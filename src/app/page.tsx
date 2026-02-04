@@ -6,7 +6,7 @@ import HomeFour from "@/components/homes/home-four";
 import HomeOne from "@/components/homes/home-one";
 import HomeThree from "@/components/homes/home-three";
 export const metadata = {
-  title: "HOZN - Real Estate React Next js",
+  title: "Pikembipresje - Real Estate React Next js",
 };
 const index = () => {
   return (
